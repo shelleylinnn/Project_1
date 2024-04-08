@@ -1,0 +1,95 @@
+/* 購物車內容 */
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #cf4501;
+  border-color: black;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background-color: #f7ead7;
+  color: #cf4501;
+}
+
+.custom-button {
+  background-color: white!important;
+  border-color: #cf4501 !important;
+  color: #cf4501!important;
+}
+.custom-button:hover {
+  background-color: #cf4501 !important;
+  border-color: #cf4501 !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-primary {
+  color: #214F39!important;
+  border: solid 1px #214F39!important;
+}
+.btn-outline-primary:hover{
+  background-color: #214F39!important;
+  color: white!important;
+  border: solid 1px #214F39!important;
+}
+
+.custom-button2 {
+  background-color: white !important;
+  border-color: #838181 !important;
+  color: #838181 !important;
+}
+.custom-button2:hover {
+    background-color: #acabab !important;
+    border-color: #acabab !important;
+    color: #ffffff !important;
+}
+
+.CartDetail{
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 25px;
+  padding: 50px;
+}
+
+.CartDetail1{
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 25px;
+  padding: 50px;
+}
+.CartDetailimg{
+  width: 100%;
+}
+
+.CartDetail2{
+  display: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 25px;
+  padding: 50px;
+}
+
+.CartDetailimg2{
+  width: 80%;
+}
+
+.input-group-append{
+  width: 30px
+}
+
+
+@media screen and (max-width: 1200px){
+  .CartDetail{
+    display: none;
+  }
+  .CartDetail2{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .custom-button2 {
+    font-size: 12px;
+  }
+  .custom-button{
+    font-size: 1px;
+  }
+}

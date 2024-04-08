@@ -1,0 +1,41 @@
+
+  .pagination > li > a, .pagination > li > button
+{
+    background-color: white;
+    color: #cf4501;
+    border-radius: 30px;
+    margin: 10px;
+    background-color: white;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > button:focus,
+.pagination > li > button:hover
+{
+    color: #fff;
+    background-color: #cf4501;
+    border-color: #F3C640;
+    border-width: 5px;
+    transition: .3s;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: #cf4501 !Important;
+    border: solid 1px #F3C640 !Important;
+}
+
+.pagination > .active > a:hover
+{
+    color: #000;
+}
+@media screen and (max-width: 520px) {
+  .pagination > li > a {
+    margin: 0px;
+  }
+  .pagination > li > button {
+    margin: 0px;
+  }
+}

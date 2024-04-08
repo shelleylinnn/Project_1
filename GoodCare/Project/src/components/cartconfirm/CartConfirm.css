@@ -1,0 +1,26 @@
+/* 購物車內容 */
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #cf4501;
+    border-color: black;
+    border-radius: 4px;
+  }
+  
+  .delete-btn:hover {
+    background-color: #f7ead7;
+    color: #cf4501;
+  }
+  
+  .custom-button {
+    background-color: white;
+    border-color: #cf4501;
+    color: #cf4501;
+  }
+  .custom-button:hover {
+    background-color: #cf4501;
+    border-color: #cf4501;
+    color: #ffffff;
+  }
+  

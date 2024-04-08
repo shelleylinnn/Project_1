@@ -1,0 +1,12 @@
+#pathBox {
+    width: fit-content;
+}
+#pathBox>a:hover {
+    border-bottom: solid 3px #F3C640;
+}
+
+@media screen and (max-width: 992px) {
+    .w3-sidebar {
+      display: none;
+    }
+  }

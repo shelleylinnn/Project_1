@@ -1,0 +1,78 @@
+/* 帳號或密碼錯誤 */
+.userloginshow{
+  color:red
+}
+
+
+
+/* 名稱判斷 */
+.hide{
+  display: none;
+}
+
+.valid{
+  color:green;
+}
+
+.invalid{
+  color:red;
+}
+
+.instructions{
+  display:block;
+}
+
+.offscreen{
+  display: none;
+}
+
+
+
+/* 頁面會員登入 */
+
+.account{
+  width:90%;
+  border: 0;
+  font-size: 18px;
+  border-bottom: 1px solid #d0d0d0;
+}
+.password{
+  width: 90%;
+  border: 0;
+  font-size: 18px;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.login{
+  width:25%;
+  border-radius: 5px;
+  font-size: 1.3em;
+  background-color: #CF4501;
+  color:white;
+  border: 1px solid #cf4501;
+}
+
+.userlogin{
+  background-color: white;
+  padding: 50px 80px;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 500px) {
+  .userlogin{
+    padding: 30px 45px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .userlogin{
+    padding: 20px 30px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .userlogin{
+    padding: 10px 20px;
+  }
+
+}

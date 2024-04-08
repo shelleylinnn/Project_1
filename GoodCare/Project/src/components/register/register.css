@@ -1,0 +1,74 @@
+/* 名稱判斷 */
+.hide{
+  display: none;
+}
+
+.valid{
+  color:green;
+}
+
+.invalid{
+  color:red;
+}
+
+.instructions{
+  display:block;
+}
+
+.offscreen{
+  display: none;
+}
+
+  /* 會員註冊 */
+
+.registered{
+  font-size: 18px;
+}
+
+.registered1{
+  width:25%;
+  border-radius: 5px;
+  font-size: 1.3em;
+  background-color: #CF4501;
+  color:white;
+  border: 1px solid #cf4501;
+}
+
+.registered2{
+  width: 330px;
+  border: 0px;
+  border-bottom: 1px solid #d0d0d0;
+  font-size: 17px;
+}
+
+.registered3{
+  background-color: white;
+  padding: 50px 100px;
+  box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .registered3{
+    padding: 40px 90px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .registered3{
+    padding: 30px 70px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .registered3{
+    padding: 10px 50px;
+  }
+}
+
+  @media screen and (max-width: 450px) {
+    .registered3{
+      padding: 5px 20px;
+    }
+
+}

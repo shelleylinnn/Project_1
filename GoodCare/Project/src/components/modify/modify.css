@@ -1,0 +1,66 @@
+/* 會員註冊 */
+
+.Modify{
+  font-size: 18px;
+}
+
+.Modify1{
+  width:25%;
+  border-radius: 5px;
+  font-size: 1.3em;
+  background-color: #CF4501;
+  color:white;
+  border: 1px solid #cf4501;
+}
+
+.Modify2{
+  width: 330px;
+  border: 0px;
+  border-bottom: 1px solid #d0d0d0;
+  font-size: 17px;
+}
+
+.Modify3{
+  background-color: white;
+  padding: 50px 100px;
+  box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 25px;
+}
+
+.Modify4{
+  border-radius:5px; 
+  width:25%;
+  font-size: 20px;
+  background-color: #555352;
+  color:white; 
+}
+
+.Modify4 a{
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 576px) {
+  .Modify3{
+    padding: 40px 90px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .Modify3{
+    padding: 30px 70px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .Modify3{
+    padding: 10px 50px;
+  }
+}
+
+  @media screen and (max-width: 450px) {
+    .Modify3{
+      padding: 5px 20px;
+    }
+
+}

@@ -1,0 +1,184 @@
+/*html的部分-卡片*/
+.search-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  height: 80px;
+  width: 85%;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  background-color: #ededed;
+}
+
+.box {
+  width: 10em;
+  height: 2.5em;
+  border-radius: 50px;
+  font-size: 18px;
+  background-color: #cf4501;
+  color: white;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.serchtext {
+  height: 2.7em;
+  width: auto;
+  margin-right: 30px;
+  flex: 1; /* 讓 select 和 input 元素填滿剩餘空間 */
+  margin-right: 15px;
+}
+
+.serchtext1 {
+  height: 2.7em;
+  width: 25%;
+  margin-right: 20px;
+}
+
+.serchbutton {
+  width: auto;
+  border: none;
+  font-size: 20px;
+  background-color: #ededed;
+  margin-right: 20px;
+  flex-shrink: 0; /* 防止按鈕被壓縮 */
+  margin-left: 10px;
+}
+
+.stronghold {
+  margin: 30px auto 0 auto;
+  text-align: center;
+  width: 90%;
+}
+
+.stronghold th,
+.stronghold td {
+  border: 1px solid black;
+  color: black;
+}
+
+.stronghold th {
+  background-color: #f7ead7;
+  /* font-weight: bold; */
+  color: #663c2a;
+}
+
+/*Map*/
+
+#svgarea {
+  height: 80vh;
+  position: relative;
+  left: 30%;
+}
+
+.title_area {
+  /* width: 22em; */
+  border: solid 2px rgb(17, 16, 16);
+  border-radius: 25px;
+  margin-top: 80px;
+  padding: 10px 25px;
+  position: absolute;
+  right: 15%;
+}
+
+/*位置*/
+#svgarea path {
+  stroke: rgb(2, 2, 2);
+  fill: transparent;
+  transition: 0.4s;
+}
+#svgarea path:hover {
+  fill: #1d5f17;
+  transform: translate(-3px, -3px);
+}
+.mapTitle {
+  color: black;
+}
+.forcast {
+  color: #cf4501;
+}
+
+.serchtext,
+.serchtext1 {
+  flex-grow: 1; /* 讓每個項目填滿可用空間 */
+  min-width: 0; /* 文字過長時的截斷問題 */
+  padding: 10px; /* 項目內容的間距 */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* 保證padding不影響元素寬度 */
+}
+
+.mapTitle {
+  font-size: 24px;
+}
+
+.forcast {
+  font-size: 18px;
+}
+
+/* 媒體查詢，調整樣式以適應不同的螢幕寬度 */
+@media screen and (max-width: 768px) {
+  .mapTitle {
+    font-size: 20px;
+  }
+
+  .forcast {
+    font-size: 16px;
+  }
+}
+.box {
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .mapTitle {
+    font-size: 18px;
+  }
+
+  .forcast {
+    font-size: 14px;
+  }
+}
+
+/* RWD for search-container */
+@media screen and (max-width: 990px) {
+  .search-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    border-radius: 5%;
+    padding-top: 10px;
+    margin-top: 30px;
+  }
+
+  .serchtext,
+  .serchtext1,
+  .serchbutton {
+    width: 80%; /* 讓元素填滿父容器 */
+    margin: 5px 0; /* 調整元素之間的垂直間距 */
+  }
+  #svgarea {
+    display: none;
+  }
+  .title_area {
+    display: none;
+  }
+  .nav-tabs {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .mapTab {
+    padding: 10px !important ;
+  }
+}
